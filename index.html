@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div id="header" style="background-image: url(images/background.png);">
+  <div class="container">
+    <nav>
+      <img src="images/vishu3.jpg" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text" >
+      <p>Frontend developer</p>
+      <h1>Hi I'm <span>Vishu</span> <br> From India </h1>
+    </div>
+  </div>
+</div>
+<!-- ---------about---- -->
+<div id="About">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/vishu.jpg" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subTitel">About Me</h1>
+        <p>Hey! I’m Vishu, a Frontend Developer with a passion for building clean and responsive websites.
+           I’ve worked on projects like a responsive Fiji Island website, an Amazon front page clone, and a restaurant website.
+            I love turning ideas into interactive and smooth web experiences, and I’m always looking for new ways to improve my skills. 
+          If you’re interested in collaborating or just want to chat about web development, feel free to reach out!</p>
+          <div class="tab-titles">
+            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>HTML5</span></li>
+              <li><span>CSS3</span></li>
+              <li><span>JavaScript</span></li>
+              <li><span>Bootstrap</span></li>
+              <li><span>Tailwind CSS</span></li>
+              <li><span>react.js</span></li>
+              <li><span>Node.js</span></li>
+              <li><span>Microsoft Office</span></li>
+              <li><span>Communication Skill</span></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Bachelor of Computer Application (BCA)[Pursuing] | JB knowledge park (MDU[Rohtak])
+              </span></li>
+              <li><span>XII (CBSE) | Government Boy’ Senior Secondary School (2022)</span></li>
+              <li><span> X (CBSE)| Government Boy’ Senior Secondary School (2020)</span></li>
+            </ul>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-------services-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-Titel">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Frontend-Developer</h2>
+        <p>I craft beautiful, responsive, and user-friendly websites that not only look great but also feel seamless to use.
+           With a keen eye for design and a passion for clean, efficient code, I turn ideas into interactive experiences.
+           Whether it’s building from scratch or improving an existing interface, I focus on performance, accessibility, and pixel-perfect details to ensure your website stands out.
+
+          Let’s bring your vision to life with a frontend that’s fast, intuitive, and truly engaging!
+          </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-------portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-Titel">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/fiji.jpeg">
+      <div class="layer">
+        <h3>Fiji Island Website</h3>
+        <p>My Fiji Island website helps travelers explore top destinations, get inspired with stunning visuals,
+           read real reviews, and easily find locations with Google Maps.
+           It makes trip planning effortless and exciting!</p>
+           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/amazon.jpeg" alt="">
+      <div class="layer">
+        <h3>Amazon Front Page Clone</h3>
+        <p>A clean and modern website displaying the menu,
+           location, and a simple table booking system for a smooth dining experience.</p>
+           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/restaurent.jpeg" alt="">
+      <div class="layer">
+        <h3>Restaurant Website</h3>
+        <p>A visually accurate and responsive replica of Amazon’s homepage, featuring product listings,
+           a navigation bar, and a dynamic UI for a seamless shopping experience.</p>
+           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn" >See More</a>
+  </div>
+</div>
+<!-- --------contact form----------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-Titel">Contact ME</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>vishuuu088@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>8448377701</p>
+        <div class="social-icons">
+          <a href=https://web.whatsapp.com> <i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/vishuuu_08_/"> <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/login.php/#:~:text=Log%20into%20Facebook%20to%20start%20sharing%20and%20connecting"> <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com/@adamhels8448"> <i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="images/VISHU RESUME.docx" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">Copyright <span>@Vishu</span> A Vishu Portfolio</div>
+ </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");       
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+    var sidemenuu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenuu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenuu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCZkmuhfGjrYmkuSNvK4TdJMhIEE_y34t6a7FOjxg7fKzpfHSBUPGUjDnSM5hrjNFjsQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML="Message Sent Successfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },4000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
